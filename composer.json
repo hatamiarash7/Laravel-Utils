@@ -62,7 +62,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hatamiarash7\\Utils\\UtilsServiceProvider"
+        "Hatamiarash7\\Utils\\LaravelUtilsServiceProvider"
       ]
     }
   },
