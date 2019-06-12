@@ -3,7 +3,7 @@
 ## Install
 
 ```
-composer require hatamiarash7/laravel-utils dev-master
+composer require hatamiarash7/laravel-utils
 ```
 
 ## Usage
