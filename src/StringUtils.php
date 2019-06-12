@@ -2,7 +2,7 @@
 
 namespace Hatamiarash7\Utils;
 
-class LaravelUtils
+class StringUtils
 {
 	public function removeStrings($words, $string)
 	{
