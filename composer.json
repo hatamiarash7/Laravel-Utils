@@ -1,0 +1,46 @@
+{
+  "name": "hatamiarash7/laravel-utils",
+  "description": "Useful functions for Laravel",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Arash Hatami",
+      "email": "hatamiarash7@gmail.com",
+      "homepage": "https://github.com/hatamiarash7"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.0",
+    "illuminate/support": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "orchestra/testbench": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hatamiarash7\\Utils\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hatamiarash7\\Utils\\Test\\": "tests/"
+    }
+  },
+  "suggest": {
+    "laravel/framework": "Required for testing (~5.8).",
+    "phpunit/phpunit": "Allow to use PHPUnit for testing (~7.0)."
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hatamiarash7\\Utils\\UtilsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
