@@ -95,4 +95,19 @@ class StringUtils
 		}
 		return strtoupper($string); // @codeCoverageIgnore
 	}
+
+	/**
+	 * Count the number of substring occurrences
+	 *
+	 * @param string $haystack
+	 * @param string $needle
+	 * @return int
+	 */
+	public static function subCount($haystack, $needle): int
+	{
+		if (self::isMBString()) {
+			return mb_substr_count($haystack, $needle, self::$encoding);
+		}
+		return substr_count($haystack, $needle); // @codeCoverageIgnore
+	}
 }

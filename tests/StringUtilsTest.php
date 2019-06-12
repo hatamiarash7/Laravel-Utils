@@ -27,5 +27,7 @@ class StringUtilsTest extends Orchestra
 		$this->assertEquals(4, StringUtils::len("سلام"));
 		$this->assertEquals("abcd", StringUtils::lowercase("ABcD"));
 		$this->assertEquals("ABCD", StringUtils::uppercase("abCd"));
+		$this->assertEquals("ABCD", StringUtils::uppercase("abCd"));
+		$this->assertEquals(3, StringUtils::subCount("hello world hello world hello", "hello"));
 	}
 }
