@@ -3,6 +3,32 @@
   "description": "Useful functions for Laravel",
   "type": "library",
   "license": "GPL-3.0",
+  "keywords": [
+    "helpers",
+    "helper",
+    "utility",
+    "utils",
+    "collection",
+    "environment",
+    "image",
+    "filesystem",
+    "array",
+    "cli",
+    "command line",
+    "dates",
+    "email",
+    "env",
+    "filter",
+    "http",
+    "url",
+    "serialize",
+    "slugify",
+    "string",
+    "mbstring",
+    "timer",
+    "misc",
+    "slugs"
+  ],
   "authors": [
     {
       "name": "Arash Hatami",
@@ -41,6 +67,10 @@
     }
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "support": {
+    "issues": "https://github.com/hatamiarash7/Laravel-Utils/issues"
   }
 }
