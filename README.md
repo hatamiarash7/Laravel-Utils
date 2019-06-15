@@ -35,3 +35,37 @@ StringUtils::uppercase($string)
 // Count the number of substring occurrences
 StringUtils::subCount($haystack, $needle)
 ```
+
+### Array  Functions
+
+```php
+use Hatamiarash7\Utils\ArrayUtils;
+. . .
+
+// Remove the duplicates from an array.
+ArrayUtils::unique($array, $keepKeys = false)
+
+// Check is key exists and return value.
+ArrayUtils::key($key, $array, $returnValue = false)
+
+// Check is value exists in the array and return key.
+ArrayUtils::exists($value, array $array, $returnKey = false)
+
+// Returns the first element in an array.
+ArrayUtils::first(array $array)
+
+// Returns the last element in an array.
+ArrayUtils::last(array $array)
+
+// Returns the first key in an array.
+ArrayUtils::firstKey(array $array)
+
+// Returns the last key in an array.
+ArrayUtils::lastKey(array $array)
+
+// Searches for a given value in an array of arrays, objects and scalar values.
+ArrayUtils::search(array $array, $search)
+
+// Add a prefix to each key of array
+ArrayUtils::addPrefix(array $array, $prefix)
+```
