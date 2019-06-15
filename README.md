@@ -2,7 +2,7 @@
 
 ## Install
 
-```
+```sh
 composer require hatamiarash7/laravel-utils dev-master # Latest version
 composer require hatamiarash7/laravel-utils            # Stable version
 ```
