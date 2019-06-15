@@ -20,17 +20,14 @@ use Hatamiarash7\Utils\StringUtils;
 // Remove given words from a string. Pass them as array.
 StringUtils::removeWords($words, $string)
 
-
 // Return length of string. Normal or UTF-8.
 StringUtils::len($string)
 
 // Convert all characters to lowercase.
 StringUtils::lowercase($string)
 
-
 // Convert all characters to uppercase.
 StringUtils::uppercase($string)
-
 
 // Count the number of substring occurrences.
 StringUtils::subCount($haystack, $needle)
@@ -68,4 +65,17 @@ ArrayUtils::search(array $array, $search)
 
 // Add a prefix to each key of array.
 ArrayUtils::addPrefix(array $array, $prefix)
+```
+
+### Variable  Functions
+
+```php
+use Hatamiarash7\Utils\VariableUtils;
+. . .
+
+// Smart convert string to int.
+ArrayUtils::int($value)
+
+// Return only digits chars of a string.
+ArrayUtils::digits($value)
 ```
