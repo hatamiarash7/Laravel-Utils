@@ -66,6 +66,6 @@ ArrayUtils::lastKey(array $array)
 // Searches for a given value in an array of arrays, objects and scalar values.
 ArrayUtils::search(array $array, $search)
 
-// Add a prefix to each key of array
+// Add a prefix to each key of array.
 ArrayUtils::addPrefix(array $array, $prefix)
 ```
