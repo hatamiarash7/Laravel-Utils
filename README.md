@@ -9,13 +9,13 @@ composer require hatamiarash7/laravel-utils            # Stable version
 
 ## Usage
 
-There is a separate class for each purpose. Arrays , Strings , … See example of each ones :
+There is a separate classes for each purpose. Arrays , Strings , … See example of each ones :
 
 ### String Functions
 
 ```php
 use Hatamiarash7\Utils\StringUtils;
-. . .
+
 
 // Remove given words from a string. Pass them as array.
 StringUtils::removeWords($words, $string);
@@ -37,7 +37,7 @@ StringUtils::subCount($haystack, $needle);
 
 ```php
 use Hatamiarash7\Utils\ArrayUtils;
-. . .
+
 
 // Remove the duplicates from an array.
 ArrayUtils::unique($array, $keepKeys = false);
@@ -71,7 +71,7 @@ ArrayUtils::addPrefix(array $array, $prefix);
 
 ```php
 use Hatamiarash7\Utils\VariableUtils;
-. . .
+
 
 // Smart convert string to int.
 ArrayUtils::int($value);
