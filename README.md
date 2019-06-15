@@ -24,15 +24,15 @@ StringUtils::removeWords($words, $string)
 // Return length of string. Normal or UTF-8.
 StringUtils::len($string)
 
-// Convert all characters to lowercase
+// Convert all characters to lowercase.
 StringUtils::lowercase($string)
 
 
-// Convert all characters to uppercase
+// Convert all characters to uppercase.
 StringUtils::uppercase($string)
 
 
-// Count the number of substring occurrences
+// Count the number of substring occurrences.
 StringUtils::subCount($haystack, $needle)
 ```
 
