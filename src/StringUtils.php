@@ -110,4 +110,46 @@ class StringUtils
 		}
 		return substr_count($haystack, $needle); // @codeCoverageIgnore
 	}
+
+	/**
+	 * Summarize a string by limit. You can use end string for summarized string.
+	 *
+	 * @param $content
+	 * @param int $max_characters
+	 * @param string $append
+	 * @return string
+	 */
+	public static function summarize($content, $max_characters = 100, $append = " ...")
+	{
+		if (strlen($content) > $max_characters) {
+			$delimiter = "~\n~";
+			$content = substr($content, 0, strpos(wordwrap($content, $max_characters, $delimiter), $delimiter)) . $append;
+		}
+
+		return $content;
+	}
+
+	/**
+	 * Convert english letters to persian
+	 *
+	 * @param $expression
+	 * @return string
+	 */
+	public static function toPersian($expression)
+	{
+		$array = ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹'];
+		return strtr($expression, $array);
+	}
+
+	/**
+	 * Convert numeral string to persian price format
+	 *
+	 * @param $expression
+	 * @return string
+	 */
+	public static function toPersianPrice($expression)
+	{
+		$array = ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹'];
+		return strtr(number_format($expression), $array) . ' تومان';
+	}
 }
