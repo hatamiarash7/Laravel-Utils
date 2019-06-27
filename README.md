@@ -99,6 +99,10 @@ All tests written using [orchestral's testbench](https://github.com/orchestral/t
 
 Check and run them to get more information about functions.
 
+## Support
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D1WGU9)
+
 ## Contributing
 
 If you want to add new functions ( or even a new class ) :
