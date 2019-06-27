@@ -31,6 +31,15 @@ StringUtils::uppercase($string);
 
 // Count the number of substring occurrences.
 StringUtils::subCount($haystack, $needle);
+
+// Summarize a string by limit. You can use end string for summarized string.
+StringUtils::summarize($content, $max_characters = 100, $append = " ...")
+
+// Convert english letters to persian.
+StringUtils::toPersian($expression)
+
+// Convert numeral string to persian price format.
+StringUtils::toPersianPrice($expression)
 ```
 
 ### Array  Functions
