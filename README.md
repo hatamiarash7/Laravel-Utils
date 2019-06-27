@@ -1,5 +1,9 @@
 # Laravel-Utils
 
+![Packagist Version](https://img.shields.io/packagist/v/hatamiarash7/laravel-utils.svg)
+
+Usefull function for laravel.
+
 ## Install
 
 ```sh
