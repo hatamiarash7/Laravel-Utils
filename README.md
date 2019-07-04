@@ -1,6 +1,6 @@
 # Laravel-Utils
 
-![Packagist Version](https://img.shields.io/packagist/v/hatamiarash7/laravel-utils.svg)
+![Packagist Version](https://img.shields.io/packagist/v/hatamiarash7/laravel-utils.svg) [![BCH compliance](https://bettercodehub.com/edge/badge/hatamiarash7/Laravel-Utils?branch=master)](https://bettercodehub.com/)
 
 Usefull function for laravel.
 
